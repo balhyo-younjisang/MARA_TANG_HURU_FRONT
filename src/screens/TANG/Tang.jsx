@@ -39,24 +39,22 @@ const Tang = () => {
             Start now
           </Button>
         </Link>
+        <Wave
+          fill="gray"
+          paused={false}
+          style={{
+            display: "flex",
+            position: "absolute",
+            bottom: 0,
+          }}
+          options={{
+            height: 10,
+            amplitude: 30,
+            speed: 0.15,
+            points: 3,
+          }}
+        />
       </Flex>
-      <Wave
-        fill="gray"
-        paused={false}
-        style={{
-          display: "flex",
-          position: "absolute",
-          bottom: 0,
-          left: 0,
-          zIndex: 1,
-        }}
-        options={{
-          height: 10,
-          amplitude: 30,
-          speed: 0.15,
-          points: 3,
-        }}
-      />
     </>
   );
 };
