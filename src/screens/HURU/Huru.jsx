@@ -14,6 +14,7 @@ const Huru = () => {
       alignItems="center"
       justifyContent="space-around"
       flexDirection="column"
+      position="relative"
     >
       <Typewriter
         options={{
