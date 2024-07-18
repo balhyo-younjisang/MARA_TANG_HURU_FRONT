@@ -1,3 +1,4 @@
-import Main from "./Main";
+import Mara from "./Mara";
+import Huru from "./Huru";
 
-export { Main };
+export { Mara, Huru }

@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { Main } from "./screens"
+import { Huru, Mara } from "./screens"
 
 
 function App() {
   return <Routes>
-    <Route path="/" element={<Main />} />
+    <Route path="/" element={<Huru />} />
+    <Route path="/mara" element={<Mara />} />
   </Routes>
 }
 
