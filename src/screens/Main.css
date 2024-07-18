@@ -1,0 +1,12 @@
+.Typewriter__wrapper:nth-child(1) {
+  color: white;
+  font-size: 140px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.subtitle {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
