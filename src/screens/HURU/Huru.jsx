@@ -1,8 +1,17 @@
 import "./Huru.css";
-import { Flex, Button } from "@chakra-ui/react";
+import { Flex, Button, Box } from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+
+const boxVariants = {
+  animationStart: {
+    borderRadius: 10,
+  },
+  animationEnd: {
+    borderRadius: 30,
+  },
+};
 
 const Huru = () => {
   return (

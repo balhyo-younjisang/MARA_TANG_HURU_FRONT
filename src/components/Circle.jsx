@@ -8,7 +8,8 @@ export default function Circle(props) {
 
   useFrame((state, delta) => {
     meshRef.current.rotation.x -= delta;
-    meshRef.current.rotation.y += delta;
+    meshRef.current.rotation.y -= delta;
+    meshRef.current.rotation.z += delta;
   });
 
   return (
